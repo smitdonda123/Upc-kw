@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../images/background_main.jpg);
+}
+#containerflash {
+  width: 1004px;
+  font-size: 12px;
+  background-image: url(../images/container_background.jpg);
+  height: 347px;
+}
+
+a {
+  text-transform: none;
+  color: #333;
+}
+#footer {
+  background: #f0f0f0;
+  padding: 10px;
+  border: #999 dotted 1px;
+}

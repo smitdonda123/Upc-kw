@@ -1,0 +1,75 @@
+#sddm {
+  margin: 0;
+  padding: 0;
+  z-index: 10000;
+}
+
+#sddm li {
+  margin: 0;
+  padding: 0;
+  z-index: 10000;
+  height: 28px;
+  list-style: none;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333;
+}
+
+#sddm li a {
+  display: block;
+  margin: 0 1px 0 0;
+  padding: 6px 10px;
+  width: 80px;
+  height: 17px;
+  background: #2794f3;
+  color: #fff;
+  z-index: 10000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+#sddm li a:hover {
+  background: #ffcc00;
+  height: 28px;
+  color: #000000;
+}
+
+#sddm div {
+  position: absolute;
+  visibility: hidden;
+  z-index: 10000;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  border: 1px solid #e7e6e6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333;
+}
+
+#sddm div a {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 5px 10px;
+  width: auto;
+  height: 28px;
+  white-space: nowrap;
+  text-align: left;
+  text-decoration: none;
+  background: #f4f4f4;
+  z-index: 10000;
+  color: #2875de;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333;
+}
+
+#sddm div a:hover {
+  background: #ffcc00;
+  color: #fff;
+}
